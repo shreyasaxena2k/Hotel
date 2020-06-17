@@ -1,0 +1,24 @@
+.name{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+}
+#costumer-register{
+    left:6px;
+}
+
+#hotel-register{
+    left:450px
+}
+
+.submit-btn1{
+    width: 85%;
+    padding: 7px 15px;
+    cursor: pointer;
+    display: block;
+    margin-top: 11px;
+    background: linear-gradient(to right, #ff4b2b ,#ff416c);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
