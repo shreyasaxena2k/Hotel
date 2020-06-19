@@ -1,15 +1,11 @@
-.name{
-    display: flex;
-    flex-direction: row;
-    width: 100px;
-}
-#costumer-register{
+
+/* #costumer-register{
     left:6px;
 }
 
 #hotel-register{
     left:450px
-}
+} */
 
 .submit-btn1{
     width: 85%;

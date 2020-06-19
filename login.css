@@ -2,8 +2,7 @@ body{
     height: 100vh;
     width: 100%;
     background: 
-    /* linear-gradient(rgba(0,0,0,0.4),
-    rgba(0,0,0,0.3)), */
+    
      center / cover no-repeat
       url(images/pic5.jpg) ;
 
@@ -12,7 +11,7 @@ body{
     background-position: center;
     background-size: cover;
     position: absolute;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .form-box{
@@ -25,6 +24,7 @@ body{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px
      rgba(0,0,0,0.22);
      border-radius: 5px;
+     overflow: hidden;
 }
 
 .button-box{
@@ -37,12 +37,12 @@ body{
     cursor: pointer;
 }
 
-.toggle-btn{
+.button{
     padding: 10px 30px;
     cursor: pointer;
     background: transparent;
     border: 0;
-    outline: none;
+    /* outline: none; */
     position: relative;
 }
 
@@ -50,6 +50,7 @@ body{
     top: 0;
     left: 0;
     position: absolute;
+    /* outline: none; */
     width:210px;
     height: 100%;
     background: linear-gradient(to right,#ff4b2b,#ff416c);
@@ -60,7 +61,29 @@ body{
 .input-group{
     top: 180px;
     position: absolute;
-    width: 325;
+    width: 325px;
+    transition: .5s;
+    /* display: none; */
+}
+.input-group.show{
+    top: 180px;
+    position: absolute;
+    width: 325px;
+    transition: .5s;
+    display: none;
+}
+
+.input-group1{
+    left: 430px;
+    bottom: 40px;
+    position: absolute;
+    width: 325px;
+    transition: .5s;
+}
+.input-group1.show{
+    left: 4px;
+    position: absolute;
+    width: 325px;
     transition: .5s;
 }
 
@@ -90,7 +113,8 @@ body{
 }
 
 label{
-    font-size: 20px;
+    font-size: 20
+    px;
     margin-bottom: -0.5rem;
 }
 
@@ -105,10 +129,14 @@ label{
 
 }
 
-#costumer-login{
+/* #costumer-login{
     left:6px;
 }
 
 #hotel-login{
     left:450px
 }
+#hotel-login1{
+    left:0px
+}
+ */
